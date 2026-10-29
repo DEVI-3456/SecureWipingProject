@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Secure Data Erasure Certificate</title>
+
+<style>
+@page { size: A4; margin: 20mm; }
+
+body {
+    font-family: "Times New Roman", serif;
+    background: white;
+}
+
+.certificate {
+    border: 8px solid #0d47a1;
+    padding: 15px;
+}
+
+.inner {
+    border: 2px solid #c9a44c;
+    padding: 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 90px;
+}
+
+.header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #0d47a1;
+    margin: 15px 0 5px;
+}
+
+.header h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background: #f2f2f2;
+    width: 30%;
+    text-align: left;
+}
+
+.sign-section {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.sign-section img {
+    width: 160px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="certificate">
+<div class="inner">
+
+    <!-- LOGO -->
+    <div class="header">
+        <img src="data:image/jpeg;base64,{{ logo_base64 }}" class="logo">
+        <h1>SECURE DATA ERASURE CERTIFICATE</h1>
+        <h2>Certificate of Compliance</h2>
+    </div>
+
+    <!-- CONTENT -->
+    <p style="text-align:center;">
+        This certificate confirms that the following file has been securely erased
+        in accordance with <strong>{{ standardCompliance }}</strong>
+        using <strong>{{ toolVersion }}</strong>.
+    </p>
+
+    <!-- DETAILS -->
+    <table>
+        <tr><th>Certificate ID</th><td>{{ certificateId }}</td></tr>
+        <tr><th>File Name</th><td>{{ fileName }}</td></tr>
+        <tr><th>File Path</th><td>{{ filePath }}</td></tr>
+        <tr><th>File Size</th><td>{{ fileSize }} bytes</td></tr>
+        <tr><th>Number of Passes</th><td>{{ passes }}</td></tr>
+        <tr><th>Original Hash</th><td>{{ originalHash }}</td></tr>
+        <tr><th>Final Hash</th><td>{{ finalHash }}</td></tr>
+        <tr><th>Status</th><td>SUCCESS</td></tr>
+        <tr><th>Date</th><td>{{ wipeDate }}</td></tr>
+        <tr><th>Compliance</th><td>{{ standardCompliance }}</td></tr>
+    </table>
+
+    <!-- SIGNATURE -->
+    <div class="sign-section">
+        <img src="data:image/jpeg;base64,{{ signature_base64 }}">
+        <p><strong>Head of Security</strong></p>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        Authorized by SecureWiper Systems Pvt Ltd<br>
+        support@securewiper.io | +91-99999-99999
+    </div>
+
+</div>
+</div>
+
+</body>
+</html>

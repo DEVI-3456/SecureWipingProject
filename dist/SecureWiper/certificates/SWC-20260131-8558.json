@@ -1,0 +1,16 @@
+{
+    "certificateId": "SWC-20260131-8558",
+    "fileName": "WhatsApp Image 2023-06-19 at 16.36.47.jpg",
+    "filePath": "C:/Users/Gutta Deva Harshini/Documents/WhatsApp Image 2023-06-19 at 16.36.47.jpg",
+    "fileSize": "62,917",
+    "passes": 3,
+    "originalHash": "c0f5caa0b82614140fdda8b148ac0d83cc35580b18d46bf209bc59243b91f59d",
+    "finalHash": "FILE_DESTROYED",
+    "status": "SUCCESS",
+    "wipeDate": "2026-01-31 11:31:44",
+    "toolVersion": "SecureWiper v2.0",
+    "standardCompliance": "NIST SP 800-88 Rev. 1",
+    "logo_path": null,
+    "signature_path": null,
+    "qr_path": "C:/Users/Gutta Deva Harshini/Desktop/wiping_project/dist/SecureWiper/certificates/SWC-20260131-8558_qr.png"
+}

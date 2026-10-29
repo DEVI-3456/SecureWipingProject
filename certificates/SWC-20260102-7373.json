@@ -1,0 +1,16 @@
+{
+    "certificateId": "SWC-20260102-7373",
+    "fileName": "DELETED_FILE",
+    "filePath": "DELETED_FILE",
+    "fileSize": "808,802",
+    "passes": 22,
+    "originalHash": "8b36a8a60d80c0d9953eb54b9f9248260bd73fe2c26abbfe2065271b8da73d6f",
+    "finalHash": "c8e29bbfeeb488d4b8f17fee7006c29635850696ddfdcdeee33952ef66ff95d6",
+    "wipeDate": "2026-01-02 15:18:54",
+    "success": true,
+    "toolVersion": "SecureWiper v2.0",
+    "standardCompliance": "NIST SP 800-88 Rev. 1",
+    "logo_path": "assets\\logo.png",
+    "signature_path": "assets\\esignature.png",
+    "qr_path": "certificates\\SWC-20260102-7373_qr.png"
+}

@@ -1,0 +1,16 @@
+{
+    "certificateId": "SWC-20260127-7541",
+    "fileName": "HDFS Commands (1).docx",
+    "filePath": "C:/Users/Gutta Deva Harshini/Documents/HDFS Commands (1).docx",
+    "fileSize": "0",
+    "passes": 16,
+    "originalHash": "N/A",
+    "finalHash": "N/A",
+    "wipeDate": "2026-01-27 11:54:17",
+    "success": true,
+    "toolVersion": "SecureWiper v2.0",
+    "standardCompliance": "NIST SP 800-88 Rev. 1",
+    "logo_path": "assets\\logo.png",
+    "signature_path": "assets\\esignature.png",
+    "qr_path": "certificates\\SWC-20260127-7541_qr.png"
+}

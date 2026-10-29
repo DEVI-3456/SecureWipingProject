@@ -1,0 +1,16 @@
+{
+    "certificateId": "SWC-20260131-2347",
+    "fileName": "bda.jpeg",
+    "filePath": "C:/Users/Gutta Deva Harshini/Downloads/bda.jpeg",
+    "fileSize": "71,067",
+    "passes": 3,
+    "originalHash": "a0d8121b4a0270e735471b4e54d7712e97a8935086e656ca039edb17e3e61c7a",
+    "finalHash": "FILE_DESTROYED",
+    "status": "SUCCESS",
+    "wipeDate": "2026-01-31 13:29:35",
+    "toolVersion": "SecureWiper v2.0",
+    "standardCompliance": "NIST SP 800-88 Rev. 1",
+    "logo_path": null,
+    "signature_path": null,
+    "qr_path": "C:/Users/Gutta Deva Harshini/Desktop/wiping_project/dist/SecureWiper/certificates/SWC-20260131-2347_qr.png"
+}

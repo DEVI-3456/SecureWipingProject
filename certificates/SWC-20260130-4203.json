@@ -1,0 +1,16 @@
+{
+    "certificateId": "SWC-20260130-4203",
+    "fileName": "ml.jpeg",
+    "filePath": "C:/Users/Gutta Deva Harshini/Downloads/ml.jpeg",
+    "fileSize": "384,882",
+    "passes": 3,
+    "originalHash": "1b7e589c084fb615d8577fad9b8a5d69ab55f9ac951b365d3352a04d4d3d4f43",
+    "finalHash": "FILE_DESTROYED",
+    "wipeDate": "2026-01-30 08:54:02",
+    "success": true,
+    "toolVersion": "SecureWiper v2.0",
+    "standardCompliance": "NIST SP 800-88 Rev. 1",
+    "logo_path": null,
+    "signature_path": null,
+    "qr_path": "C:\\Users\\Gutta Deva Harshini\\Desktop\\wiping_project\\certificates\\SWC-20260130-4203_qr.png"
+}
